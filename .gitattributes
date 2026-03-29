@@ -1,0 +1,9 @@
+# Normalize text line endings on Windows checkouts
+* text=auto
+
+*.py   text eol=lf
+*.cpp  text eol=lf
+*.h    text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.txt  text eol=lf
