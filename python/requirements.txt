@@ -1,0 +1,16 @@
+# Training / export (install torch for your platform from https://pytorch.org/ )
+torch>=2.0
+torchaudio>=2.0
+numpy>=1.22
+
+# MUSDB dataset (training only)
+musdb>=0.4.0
+stempeg>=0.2.0
+
+# ONNX export (single-file merge + verification)
+onnx>=1.14
+onnxruntime>=1.16
+
+# Demo: yt-dlp download + soundfile I/O (torchaudio save/load may require torchcodec)
+soundfile>=0.12
+yt-dlp>=2024.1.0
