@@ -1,0 +1,20 @@
+{
+  "name": "mir-drum-isolator",
+  "version": "0.1.0",
+  "description": "Real-time drum isolation audio engine using ONNX Runtime, FFTW3, PortAudio, and libsndfile",
+  "dependencies": [
+    {
+      "name": "portaudio",
+      "features": []
+    },
+    {
+      "name": "libsndfile",
+      "default-features": false,
+      "features": []
+    },
+    {
+      "name": "fftw3",
+      "features": []
+    }
+  ]
+}
