@@ -1,0 +1,62 @@
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Large / generated assets (never commit) ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.onnx.data
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.zip
+checkpoints/
+downloads/
+
+# Keep directory for user exports; contents stay ignored via patterns above
+models/*
+!models/.gitkeep
+
+# --- Local vcpkg bootstrap (clone is huge) ---
+vcpkg/
+
+# --- C++ / CMake ---
+cpp/build/
+cpp/cmake-build-*/
+cpp/vcpkg_installed/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+_deps/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
+*.exp
+compile_commands.json
+ninja.build
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- Jupyter / Kaggle ---
+.ipynb_checkpoints/
+.kaggle/
